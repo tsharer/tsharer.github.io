@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Taylor Sharer</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main class="col-container">
+		
+			<section class="column">
+				<h2> Website development Quiz</h2> 
+				<p>
+					<label for="quest-1"> What label is used to make text bold in css? </label> 
+					<select id="quest-1">
+						<option> hover </option>
+						<option>strong</option>
+						<option> padding </option>
+						<option> border </option>
+					</select>
+				</p>
+				<p>
+					<label for="quest-2"> What text is used in HTML after the image tag to get the picture to display on the page? </label>
+					<select id="quest-2">
+						<option> href </option>
+						<option> pic.html </option>
+						<option>src</option>
+						<option> alt </option>
+					</select>
+				</p>
+				<p>
+					<label for="quest-3"> What elements are used to create a table in HTML? </label> 
+					<select id="quest-3">
+						<option> th, img, br </option>
+						<option> td, tr, p </option>
+						<option> body, main, th </option>
+						<option>th, tr, td</option>
+					</select>
+				</p>
+				<p>
+					<label for="quest-4"> What does the "ul" tag do? </label>
+					<select id="quest-4">
+						<option>Creates a list with bullet points</option>
+						<option> Creates a numbered list </option>
+						<option> Nothing </option>
+						<option> Creates a table </option>
+					</select>
+				</p>
+				<button onclick="showAnswers()"> Submit </button>
+			</section>
+			<section class="column" >
+				<h2> Quiz Results </h2> 
+				<div id="results" class= "hidden"> 
+					<p id="result1"></p>
+					<p id="result2"></p>
+					<p id="result3"></p>
+					<p id="result4"></p>
+					
+					<p id="score"></p>
+				</div> 
+			</section>
+
+		</main>
+		<footer>
+			<p>&copy;Taylor Sharer</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

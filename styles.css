@@ -1,0 +1,128 @@
+/*Main Structure*/
+body {
+	font-family:arial;
+	background:#E0A3BD;
+}
+#content {
+	width:80%;
+	margin:auto;
+	padding:5px;
+	background:#FFCABD;
+	text-align:center;
+}
+header,main,footer,nav {
+	padding:5px;
+}
+main {
+	background:#B1F1FA;
+}
+h1,h2{
+	text-align:center;
+}
+h1{
+	color:#A04CF5;
+}
+
+
+@media (min-width:100px){
+
+.column {
+	padding:5px;
+}
+.pic {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+h3{
+	text-align:left;
+}
+footer {
+	text-align:center;	
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Navigation*/
+
+@media (min-width:720px){
+#main-nav{
+	text-align:left;
+}
+a{
+	text-decoration:none;
+}
+#main-nav ul{
+	list-style-type:none;
+	text-decoration:none;
+	padding-left:0px;
+}
+#main-nav li {
+	border:1px solid purple;
+	background-color:#A2AEE0;
+	padding:2px;
+	text-align: center;
+}
+#main-nav li:hover{
+	background-color: lavender;
+}
+}
+.towerlondon {
+	width:600px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.hidden {
+	display: none;
+}
+h3{
+	text-align:center;
+}
+
+
+
+
+/* contact form */
+#contact-form {
+	height:350px;
+	width:300px;
+	background-color:cadetblue;
+	padding:10px;
+	border:4px solid black;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 15%;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+#results {
+	text-align:center;
+	background-color:mediumseagreen;
+	padding:10px;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+#youtube {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#directions{
+	text-align:center;
+}
